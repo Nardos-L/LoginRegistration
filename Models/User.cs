@@ -6,12 +6,12 @@ public class User
 {
     [Display(Name = "First Name:")] 
     [Required]
-    [MinLength(3)]
+    [MinLength(2)]
     public string FirstName { get; set; }
 
     [Display(Name = "Last Name:")]
     [Required]
-    [MinLength(4)]
+    [MinLength(2)]
     public string LastName { get; set; }
 
     [Display(Name = "Email Address:")]
