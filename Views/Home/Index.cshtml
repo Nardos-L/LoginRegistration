@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-register">
+        <div class="register">
+            <h1>Register</h1>
+            <partial name="_UserPartial" />
+        </div>
+        <div class="login">
+            <h1>Login</h1>
+            <partial name="_LoginPartial" />
+        </div>  
+    </div>
+</body>
+</html>

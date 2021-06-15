@@ -1,0 +1,63 @@
+.form-container {
+margin: 20px;
+}
+input, select,textarea {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit]{
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+width :100px;
+}
+
+input[type=submit]:hover{
+    background-color: aquamarine;
+}
+
+.show-container {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.show-container h3{
+    margin-left: 20px;
+    text-decoration: underline;
+
+}
+
+.show-container p {
+    margin-left: 30px;
+}
+
+.link {
+    background-color: #04AA6D;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+}
+.link {
+    margin-right: 10px;
+}
+
+.login-register {
+    display: flex;
+    justify-content: space-evenly;
+}
